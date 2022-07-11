@@ -20,11 +20,11 @@ Welcome to Our Application
 
 ## Requirements:
 
-Node.js
-express
-Vue.js
-TypeScript
-etc...
+- Node.js
+- express
+- Vue.js
+- TypeScript
+- etc...
 
 ## Installing Dependencies:
 Install the dependencies in client folder and server folder:
@@ -36,8 +36,8 @@ Install the dependencies in client folder and server folder:
 
 # Client :
 First we used the Vue.js on the front-end so the first step is to install the vue.js packages :
-1- npm install -g vue-cli
-2- Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser(To avoid error)
-3- vue init webpack client
-4- npm i
-5- npm run dev
+- npm install -g vue-cli
+- Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser(To avoid error)
+- vue init webpack client
+- npm i
+- npm run dev
