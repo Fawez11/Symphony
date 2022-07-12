@@ -1,4 +1,3 @@
-
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -10,7 +9,6 @@ const port = 3000;
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
-
 app.post('/register', (req, res) => {
     res.send({
         message: `hello ${req.body.email}! Your user was registered Have fun pajaro `
@@ -20,3 +18,5 @@ app.post('/register', (req, res) => {
 app.listen(port, () => {
     return console.log(`Express is listening at http://localhost:${port}`);
 });
+// test
+//# sourceMappingURL=app.js.map
