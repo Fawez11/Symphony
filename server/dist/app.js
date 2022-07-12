@@ -1,22 +1,27 @@
-
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
-const app = (0, express_1.default)();
+// import express from 'express';
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const morgan = require('morgan');
 const port = 3000;
+const app = express();
+app.use(morgan('combine'));
+app.use(bodyParser.json());
+app.use(cors());
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send({
+        message: 'Hello pajaro !'
+    });
 });
-
 app.post('/register', (req, res) => {
     res.send({
         message: `hello ${req.body.email}! Your user was registered Have fun pajaro `
     });
 });
-// test 
+// app.listen(process.env.PORT || 3000)
+// // test 
 app.listen(port, () => {
     return console.log(`Express is listening at http://localhost:${port}`);
 });
+// test
+//# sourceMappingURL=app.js.map
