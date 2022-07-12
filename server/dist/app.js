@@ -9,6 +9,7 @@ const port = 3000;
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
+//test
 app.post('/register', (req, res) => {
     res.send({
         message: `hello ${req.body.email}! Your user was registered Have fun pajaro `
