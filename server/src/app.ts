@@ -27,9 +27,8 @@ app.post('/register',(req,res)=>{
     })
 })
 // app.listen(process.env.PORT || 3000)
-// // test 
+
 app.listen(port, () => {
   return console.log(`Express is listening at http://localhost:${port}`);
 });
 
-// test
