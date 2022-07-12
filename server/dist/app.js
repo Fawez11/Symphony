@@ -1,3 +1,4 @@
+
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -19,4 +20,3 @@ app.post('/register', (req, res) => {
 app.listen(port, () => {
     return console.log(`Express is listening at http://localhost:${port}`);
 });
-//# sourceMappingURL=app.js.map

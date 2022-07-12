@@ -41,9 +41,3 @@ First we used the Vue.js on the front-end so the first step is to install the vu
 - vue init webpack client
 - npm i
 - npm run dev
-
-# Server :
-Creating the file 
-- mkdir server
-- npm init -f
-- npm install --save nodemon eslint
