@@ -36,6 +36,7 @@
     class="cyan" 
     @click="register">Register
     </v-btn>
+    <!-- test -->
 </div>
 </div>
   </v-flex> 
