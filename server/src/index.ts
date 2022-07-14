@@ -8,30 +8,12 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
-// get all post
+
 app.get("/post",async(req,res,next)=>{
  
 })
 
-// get all post
-app.get("/post",async(req,res,next)=>{
  
-})
-
-// get all post
-app.get("/post",async(req,res,next)=>{
- 
-})
-
-// get all post
-app.get("/post",async(req,res,next)=>{
- 
-})
-
-// get all post
-app.get("/post",async(req,res,next)=>{
- 
-})
 
 
 
